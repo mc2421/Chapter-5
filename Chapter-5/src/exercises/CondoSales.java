@@ -62,6 +62,19 @@ public class CondoSales {
 		
 		
 	}
+	public static void displayGarage(int garage)
+	{
+	System.out.println("Enter 1 for $5,000 garage or 2 for a free parking space");
+			choice2 = input.nextInt();
+		if (choice2 == 1)
+		{
+			System.out.println("Add $5000 to price of home." );
+			garage = 5000;
+		}
+		else
+			System.out.println("Lake View Condo with parking space for $210,000");
+				garage = 0;
+	}
 	}
 
-
+//Be more efficient with code 
